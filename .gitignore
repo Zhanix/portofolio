@@ -1,0 +1,38 @@
+# Temporary runtime & crashpad
+temp_profile/
+
+# Local python dev server & internal log
+serve.py
+RANGKUMAN_CONVERSATION.md
+
+# Raw internal reference reports
+lapmagang/
+
+# Intermediate raw extraction cache files
+assets/images/extracted/
+assets/images/image1.png
+assets/images/image10.jpeg
+assets/images/image11.jpeg
+assets/images/image12.png
+assets/images/image13.jpeg
+assets/images/image14.png
+assets/images/image15.jpeg
+assets/images/image16.png
+assets/images/image17.png
+assets/images/image18.png
+assets/images/image30.jpg
+assets/images/image32.jpeg
+assets/images/image34.jpeg
+assets/images/*.pdf.png
+
+# Raw weekly extraction scratch images in magang folder
+assets/images/magang/w*
+assets/images/magang/test_*
+
+# OS & Editor
+.DS_Store
+Thumbs.db
+*.tmp
+*.log
+.vscode/
+.idea/
