@@ -117,8 +117,8 @@ document.addEventListener('DOMContentLoaded', () => {
       title: 'Surat Pencatatan Ciptaan — Buku Panduan Smart Cat Litter Box IoT',
       subtitle: 'Kementerian Hukum & HAM RI / DJKI • No. EC002026098216 • Hak Cipta No. 001304498',
       pages: [
-        'assets/images/surat_hki_buku_panduan_p1.png',
-        'assets/images/surat_hki_buku_panduan_p2.png'
+        'assets/images/surat_hki_buku_panduan_p1.jpg',
+        'assets/images/surat_hki_buku_panduan_p2.jpg'
       ],
       pdf: 'assets/docs/surat_hki_buku_panduan.pdf'
     },
@@ -126,7 +126,7 @@ document.addEventListener('DOMContentLoaded', () => {
       title: 'Surat Pencatatan Ciptaan — Program Komputer Website Spin A Meal',
       subtitle: 'Kementerian Hukum & HAM RI / DJKI • No. EC00202448914 • Hak Cipta No. 000624268',
       pages: [
-        'assets/images/sertifikat_hakcipta_WebsiteSpinAMeal.png'
+        'assets/images/sertifikat_hakcipta_WebsiteSpinAMeal.jpg'
       ],
       pdf: 'assets/docs/sertifikat_hakcipta_WebsiteSpinAMeal.pdf'
     },
@@ -159,7 +159,7 @@ document.addEventListener('DOMContentLoaded', () => {
       subtitle: 'Kementerian Pendidikan Tinggi, Sains, dan Teknologi • Politeknik Negeri Samarinda • UPA. Bahasa',
       desc: 'Sertifikat resmi uji kemahiran bahasa Inggris (TOEFL Prediction Test) dengan skor total 483: Listening Comprehension (51), Structure & Written Expression (42), dan Reading Comprehension (52). Diterbitkan oleh UPA Bahasa POLNES pada 06 Agustus 2026.',
       pages: [
-        'assets/images/sertifikat_toefl.png'
+        'assets/images/sertifikat_toefl.jpg'
       ],
       pdf: 'assets/docs/sertifikat_toefl.pdf'
     },
@@ -294,7 +294,23 @@ document.addEventListener('DOMContentLoaded', () => {
     if (!currentDocKey || !docData[currentDocKey]) return;
     const doc = docData[currentDocKey];
     const pageSrc = doc.pages[currentPageIndex];
-    modalImg.src = pageSrc + (pageSrc.includes('?') ? '&' : '?') + 't=' + Date.now();
+
+    // Show loading spinner
+    const container = modalImg.parentElement;
+    container.classList.add('loading');
+    modalImg.style.opacity = '0';
+
+    modalImg.onload = () => {
+      container.classList.remove('loading');
+      modalImg.style.opacity = '1';
+    };
+    modalImg.onerror = () => {
+      container.classList.remove('loading');
+      modalImg.style.opacity = '1';
+    };
+
+    modalImg.src = pageSrc;
+
     if (pageIndicator) {
       pageIndicator.textContent = `Halaman ${currentPageIndex + 1} dari ${doc.pages.length}`;
     }

@@ -1792,6 +1792,27 @@ img {
   border: 1px solid var(--border);
   image-rendering: -webkit-optimize-contrast;
   image-rendering: crisp-edges;
+  transition: opacity 0.3s ease;
+}
+
+/* Modal Loading Spinner */
+.modal-image-container.loading {
+  position: relative;
+}
+
+.modal-image-container.loading::after {
+  content: '';
+  position: absolute;
+  width: 36px;
+  height: 36px;
+  border: 3px solid var(--border);
+  border-top-color: var(--accent);
+  border-radius: 50%;
+  animation: modal-spin 0.7s linear infinite;
+}
+
+@keyframes modal-spin {
+  to { transform: rotate(360deg); }
 }
 
 .modal-page-controls {
