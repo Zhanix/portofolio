@@ -1,4 +1,4 @@
-# Portofolio Rekayasa Komputer & IoT — Zaidan Alfarizy Putra Fadilah
+# Portofolio Rekayasa Komputer & IoT | Zaidan Alfarizy Putra Fadilah
 
 [![Website Live](https://img.shields.io/badge/Live%20Website-zhanix.github.io%2Fporto-brightgreen.svg?style=flat&logo=googlechrome)](https://zhanix.github.io/porto/)
 [![IPK](https://img.shields.io/badge/IPK-3.97%20%2F%204.00-success.svg)](#pendidikan)
