@@ -29,6 +29,9 @@ assets/images/*.pdf.png
 assets/images/magang/w*
 assets/images/magang/test_*
 
+# Organized photo archive for user
+Foto_Magang_PTUN/
+
 # OS & Editor
 .DS_Store
 Thumbs.db

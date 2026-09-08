@@ -1,12 +1,12 @@
 # Portofolio Rekayasa Komputer & IoT | Zaidan Alfarizy Putra Fadilah
 
-[![Website Live](https://img.shields.io/badge/Live%20Website-zhanix.github.io%2Fporto-brightgreen.svg?style=flat&logo=googlechrome)](https://zhanix.github.io/porto/)
+[![Website Live](https://img.shields.io/badge/Live%20Website-zhanix.github.io%2Fportofolio-brightgreen.svg?style=flat&logo=googlechrome)](https://zhanix.github.io/portofolio/)
 [![IPK](https://img.shields.io/badge/IPK-3.97%20%2F%204.00-success.svg)](#pendidikan)
 [![HKI](https://img.shields.io/badge/HKI%20Kemenkumham-2%20Surat%20Resmi-informational.svg)](#hak-kekayaan-intelektual-hki--publikasi)
 [![Publikasi](https://img.shields.io/badge/Jurnal-JAIEA%20SINTA%205-orange.svg)](#hak-kekayaan-intelektual-hki--publikasi)
 [![Kontes Robot](https://img.shields.io/badge/Robotika-Juara%203%20Kaltimtara-yellow.svg)](#sertifikasi-profesional--prestasi)
 
-🌐 **Live Demo Website:** [https://zhanix.github.io/porto/](https://zhanix.github.io/porto/)
+🌐 **Live Demo Website:** [https://zhanix.github.io/portofolio/](https://zhanix.github.io/portofolio/)
 
 Selamat datang di repositori portofolio resmi **Zaidan Alfarizy Putra Fadilah, S.Tr.Kom.**  
 Lulusan Sarjana Terapan **Politeknik Negeri Samarinda** (Jurusan Teknologi Informasi, Program Studi D4 Teknologi Rekayasa Komputer).
@@ -82,26 +82,6 @@ Portofolio ini mendokumentasikan rekam jejak rekayasa terintegrasi pada bidang:
 
 ---
 
-## 🚀 Menjalankan Secara Lokal
-
-Portofolio ini dibangun murni menggunakan standar web modern (**Vanilla HTML, CSS, dan JavaScript**) tanpa dependensi package manager yang rumit.
-
-1. **Clone repositori:**
-   ```bash
-   git clone https://github.com/Zhanix/porto.git
-   cd porto
-   ```
-
-2. **Buka di browser:**
-   - Cukup klik ganda pada file `index.html`, atau
-   - Jalankan server HTTP lokal sederhana:
-     ```bash
-     python -m http.server 8080
-     ```
-   - Buka `http://localhost:8080` pada peramban web.
-
----
-
 ## 📬 Kontak & Informasi
 
 * **Nama:** Zaidan Alfarizy Putra Fadilah, S.Tr.Kom.
@@ -112,4 +92,4 @@ Portofolio ini dibangun murni menggunakan standar web modern (**Vanilla HTML, CS
 * **GitHub:** [github.com/Zhanix](https://github.com/Zhanix)
 
 ---
-*© 2026 Zaidan Alfarizy Putra Fadilah, S.Tr.Kom. Seluruh hak cipta dan dokumen dilindungi hukum.*
+*© 2026 Zaidan Alfarizy Putra Fadilah, S.Tr.Kom.*
