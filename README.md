@@ -88,7 +88,7 @@ Portofolio ini mendokumentasikan rekam jejak rekayasa terintegrasi pada bidang:
 * **Email:** [zaidan.apf@gmail.com](mailto:zaidan.apf@gmail.com)
 * **WhatsApp / Telepon:** [+62 812-5319-2552](https://wa.me/6281253192552)
 * **Lokasi:** Samarinda, Kalimantan Timur, Indonesia
-* **LinkedIn:** [linkedin.com/in/zaidan-alfarizy](https://linkedin.com/in/zaidan-alfarizy)
+* **LinkedIn:** [linkedin.com/in/zaidanalfarizy](https://www.linkedin.com/in/zaidanalfarizy)
 * **GitHub:** [github.com/Zhanix](https://github.com/Zhanix)
 
 ---
